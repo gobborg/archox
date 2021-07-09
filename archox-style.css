@@ -51,6 +51,36 @@ div{
 
 }
 
+.inlineblock{
+	display: inline-block;
+	font-size:20px;
+	text-align: left;
+}
+
+.left {
+	width: 25%;
+	float: left;
+	display: block;
+	margin-left:300px;
+	margin-right:0px;
+}
+
+.right {
+	width: 30%;
+	float: left;
+	display: block;
+	margin-left:50px;
+	margin-right:250px;
+}
+
+.clearcolumns {
+	color: black;
+	font-family: 'cmu_serifroman';
+	font-size:20px;
+	background-color: pink;
+	clear:both;
+}
+
 ul{
 	color: black;
 	font-family: 'cmu_serifroman';
@@ -86,7 +116,7 @@ pre{
 	background: #ffeff0;
 	word-wrap: break-word;
 	box-decoration-break: clone;
-	padding:0;
+	padding: 0;
 	border-radius: .2rem;
 	font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 	font-size:18px;
@@ -146,6 +176,36 @@ div{
 
 }
 
+.inlineblock{
+	display: inline-block;
+	font-size:20px;
+	text-align: left;
+}
+
+.left {
+	width: 25%;
+	float: left;
+	display: block;
+	margin-left:300px;
+	margin-right:0px;
+}
+
+.right {
+	width: 30%;
+	float: left;
+	display: block;
+	margin-left:50px;
+	margin-right:250px;
+}
+
+.clearcolumns {
+	color: black;
+	font-family: 'cmu_serifroman';
+	font-size:20px;
+	background-color: pink;
+	clear:both;
+}
+
 ul{
 	color: black;
 	font-family: 'cmu_serifroman';
@@ -188,7 +248,6 @@ pre{
 	text-indent:30px;
 }
 }
-
 
 @media only screen and (min-width: 768px) {
 /* to use Computer Modern Roman Serif font */
@@ -254,6 +313,36 @@ div{
 
 }
 
+.inlineblock{
+	display: inline-block;
+	font-size:20px;
+	text-align: left;
+}
+
+.left {
+	width: 25%;
+	float: left;
+	display: block;
+	margin-left:300px;
+	margin-right:0px;
+}
+
+.right {
+	width: 30%;
+	float: left;
+	display: block;
+	margin-left:50px;
+	margin-right:250px;
+}
+
+.clearcolumns {
+	color: black;
+	font-family: 'cmu_serifroman';
+	font-size:20px;
+	background-color: pink;
+	clear:both;
+}
+
 ul{
 	color: black;
 	font-family: 'cmu_serifroman';
@@ -300,5 +389,6 @@ pre{
 	text-indent:50px;
 	margin-left:250px;
 	margin-right:250px;
-}
+	width:auto;
+	}
 }
