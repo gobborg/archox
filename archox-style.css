@@ -108,17 +108,20 @@ figcaption{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:20px;
-	margin-left:250px;
-	margin-right:250px;
+	margin-left:0px;
+	margin-right:0px;
 	text-align: center;
 
 
 }
 
 pre{
+/*code block*/
 	color: black;
 	background: #ffeff0;
-	word-wrap: break-word;
+	overflow: scroll;
+		overflow-x: scroll;
+		overflow-y: scroll;
 	box-decoration-break: clone;
 	padding: 0;
 	border-radius: .2rem;
@@ -237,16 +240,19 @@ figcaption{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:20px;
-	margin-left:250px;
-	margin-right:250px;
+	margin-left:0px;
+	margin-right:0px;
 	text-align: center;
 
 }
 
 pre{
+/*code block*/
 	color: black;
 	background: #ffeff0;
-	word-wrap: break-word;
+		overflow: scroll;
+			overflow-x: scroll;
+			overflow-y: scroll;
 	box-decoration-break: clone;
 	padding:0;
 	border-radius: .2rem;
@@ -381,16 +387,20 @@ figcaption{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:20px;
-	margin-left:250px;
-	margin-right:250px;
+	max-width: 600px;
+	margin-left:auto;
+	margin-right:auto;
 	text-align: center;
 
 }
 
 pre{
+/*code block*/
 	color: black;
 	background: #ffeff0;
-	word-wrap: break-word;
+	overflow: scroll;
+		overflow-x: scroll;
+		overflow-y: scroll;
 	box-decoration-break: clone;
 	padding:0;
 	border-radius: .2rem;
@@ -402,3 +412,5 @@ pre{
 	width:auto;
 	}
 }
+
+
