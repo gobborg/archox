@@ -37,6 +37,12 @@ h4{
 	font-size:32px;
 }
 
+h5{
+	color: black;
+	font-family: 'cmu_serifroman';
+	font-size:22px;
+}
+
 p{
 	color: black;
 	font-family: 'cmu_serifroman';
@@ -167,6 +173,12 @@ h4{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:32px;
+}
+
+h5{
+	color: black;
+	font-family: 'cmu_serifroman';
+	font-size:22px;
 }
 
 p{
@@ -304,6 +316,14 @@ h4{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:32px;
+	margin-left:100px;
+	margin-right:100px;
+}
+
+h5{
+	color: black;
+	font-family: 'cmu_serifroman';
+	font-size:22px;
 	margin-left:100px;
 	margin-right:100px;
 }
@@ -459,6 +479,14 @@ h4{
 	margin-right:250px;
 }
 
+h5{
+	color: black;
+	font-family: 'cmu_serifroman';
+	font-size:22px;
+	margin-left:250px;
+	margin-right:250px;
+}
+
 p{
 	color: black;
 	font-family: 'cmu_serifroman';
@@ -466,6 +494,7 @@ p{
 	text-indent:50px;
 	margin-left:250px;
 	margin-right:250px;
+	max-width:1400px;
 }
 
 div{
@@ -474,7 +503,7 @@ div{
 	font-size:20px;
 	margin-left:250px;
 	margin-right:250px;
-
+	max-width:1400px;
 }
 
 .inlineblock{
@@ -513,6 +542,7 @@ ul{
 	font-size:20px;
 	margin-left:250px;
 	margin-right:250px;
+	max-width:1400px;
 }
 
 ol{
@@ -521,6 +551,7 @@ ol{
 	font-size:20px;
 	margin-left:250px;
 	margin-right:250px;
+	max-width:1400px;
 }
 
 a{
@@ -542,7 +573,7 @@ figcaption{
 	margin-left:auto;
 	margin-right:auto;
 	text-align: center;
-
+	max-width:1400px;
 }
 
 pre{
@@ -560,6 +591,7 @@ pre{
 	text-indent:50px;
 	margin-left:250px;
 	margin-right:250px;
-	width:auto;
+	max-width:1400px;
+/*	width:auto;
 	}
 }
