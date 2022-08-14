@@ -451,40 +451,35 @@ h1{
 	font-family: 'cmu_serifroman';
 	font-size: 128px;
 	text-align: center;
-	margin-left:250px;
-	margin-right:250px;
+	margin:auto;
 	line-height: 5%;
 }
 h2{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:42px;
-	margin-left:250px;
-	margin-right:250px;
+	margin:auto;
 }
 
 h3{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:38px;
-	margin-left:250px;
-	margin-right:250px;
+	margin:auto;
 }
 
 h4{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:32px;
-	margin-left:250px;
-	margin-right:250px;
+	margin:auto;
 }
 
 h5{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:22px;
-	margin-left:250px;
-	margin-right:250px;
+	margin:auto;
 }
 
 p{
@@ -492,8 +487,7 @@ p{
 	font-family: 'cmu_serifroman';
 	font-size:20px;
 	text-indent:50px;
-	margin-left:250px;
-	margin-right:250px;
+	margin:auto;
 	max-width:1400px;
 }
 
@@ -501,8 +495,7 @@ div{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:20px;
-	margin-left:250px;
-	margin-right:250px;
+	margin:auto;
 	max-width:1400px;
 }
 
@@ -540,8 +533,7 @@ ul{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:20px;
-	margin-left:250px;
-	margin-right:250px;
+	margin:auto;
 	max-width:1400px;
 }
 
@@ -549,8 +541,7 @@ ol{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:20px;
-	margin-left:250px;
-	margin-right:250px;
+	margin:auto;
 	max-width:1400px;
 }
 
@@ -589,9 +580,7 @@ pre{
 	font-family:Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 	font-size:18px;
 	text-indent:50px;
-	margin-left:250px;
-	margin-right:250px;
+	margin:auto;
 	max-width:1400px;
-/*	width:auto;
 	}
 }
