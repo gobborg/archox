@@ -18,6 +18,7 @@ h1{
 	font-size: 64px;
 	text-align: center;
 	line-height: 5%;
+	margin-top: 40pt;
 }
 h2{
 	color: black;
@@ -35,6 +36,7 @@ h4{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:32px;
+	margin-top: 40pt;
 }
 
 h5{
@@ -54,7 +56,6 @@ div{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:20px;
-
 }
 
 .inlineblock{
@@ -453,6 +454,7 @@ h1{
 	text-align: center;
 	margin:auto;
 	line-height: 5%;
+	margin-top: 100pt;
 }
 h2{
 	color: black;
@@ -465,14 +467,16 @@ h3{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:38px;
-	margin:auto;
+	/* top | horizontal | bottom */
+	margin: 20pt auto 20pt;
 }
 
 h4{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:32px;
-	margin:auto;
+	/* top | horizontal | bottom */
+	margin: 80pt auto 0pt;
 }
 
 h5{
@@ -487,6 +491,7 @@ p{
 	font-family: 'cmu_serifroman';
 	font-size:20px;
 	text-indent:50px;
+	/* top | horizontal | bottom */
 	margin:auto;
 	max-width:1400px;
 }
@@ -495,7 +500,8 @@ div{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:20px;
-	margin:auto;
+	/* top | horizontal | bottom */
+	margin: 0pt auto 0pt;
 	max-width:1400px;
 }
 
@@ -584,3 +590,4 @@ pre{
 	max-width:1400px;
 	}
 }
+
