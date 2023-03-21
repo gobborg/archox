@@ -88,6 +88,15 @@ div{
 	clear:both;
 }
 
+.index_left {
+}
+
+.index_center {
+}
+
+.index_right {
+}
+
 ul{
 	color: black;
 	font-family: 'cmu_serifroman';
@@ -226,6 +235,15 @@ div{
 	clear:both;
 }
 
+.index_left {
+}
+
+.index_center {
+}
+
+.index_right {
+}
+
 ul{
 	color: black;
 	font-family: 'cmu_serifroman';
@@ -342,8 +360,8 @@ div{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:20px;
-	margin-left:100px;
-	margin-right:100px;
+	margin-left:25px;
+	margin-right:25px;
 
 }
 
@@ -375,6 +393,15 @@ div{
 	font-size:20px;
 	background-color: pink;
 	clear:both;
+}
+
+.index_left {
+}
+
+.index_center {
+}
+
+.index_right {
 }
 
 ul{
@@ -455,12 +482,14 @@ h1{
 	margin:auto;
 	line-height: 5%;
 	margin-top: 100pt;
+	max-width:1400px;
 }
 h2{
 	color: black;
 	font-family: 'cmu_serifroman';
 	font-size:42px;
 	margin:auto;
+	max-width:1400px;
 }
 
 h3{
@@ -469,6 +498,7 @@ h3{
 	font-size:38px;
 	/* top | horizontal | bottom */
 	margin: 20pt auto 20pt;
+	max-width:1400px;
 }
 
 h4{
@@ -477,6 +507,7 @@ h4{
 	font-size:32px;
 	/* top | horizontal | bottom */
 	margin: 80pt auto 0pt;
+	max-width:1400px;
 }
 
 h5{
@@ -484,6 +515,7 @@ h5{
 	font-family: 'cmu_serifroman';
 	font-size:22px;
 	margin:auto;
+	max-width:1400px;
 }
 
 p{
@@ -533,6 +565,20 @@ div{
 	font-size:20px;
 	background-color: pink;
 	clear:both;
+}
+
+.index_left {
+	float: inline-start;
+	width: 350px;
+}
+
+.index_center {
+	width: 600px;
+}
+
+.index_right {
+	float: inline-end;
+	width: 350px;
 }
 
 ul{
